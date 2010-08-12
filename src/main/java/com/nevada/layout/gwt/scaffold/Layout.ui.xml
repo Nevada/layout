@@ -1,10 +1,17 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui">
-	<ui:style>
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:my='urn:import:com.nevada.layout.gwt.scaffold'>
+
+	<ui:style src="MyUi.css" />
 		
-	</ui:style>
-	<g:HTMLPanel>
-	asdfkljasdf
-	</g:HTMLPanel>
+	<g:ScrollPanel>
+		<g:HTMLPanel>
+			<g:HorizontalPanel>
+				<g:Button ui:field="om">om</g:Button>
+				<g:Button ui:field="hur">hur</g:Button>
+			</g:HorizontalPanel>
+			<g:DeckPanel ui:field="main" />
+		</g:HTMLPanel>
+	</g:ScrollPanel>
+
 </ui:UiBinder> 
